@@ -25,7 +25,9 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-color: rgba(188, 250, 247,0.4);}
+    /* background-color: rgba(188, 250, 247,0.4);} */
+    background-color: rgb(243, 206, 136);
+}
 
 .hamburger {
     display: none;
@@ -113,7 +115,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(188, 250, 247,0.4);
+    background-color: rgb(243, 206, 136);
 }
 .paragrapgh4Banner{
     color: #0c0c0c;
@@ -243,7 +245,50 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* abouttt */
+.mainHeadingAbout{
+  background-color: rgb(131, 112, 252);
+  padding:40px 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin:20px 0;
+}
+.paraPartAbout p{
+  color: #3d3a3a;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+.containers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  justify-items: center;
+  padding:50px ;
+  gap: 2;
+
+ 
+}
+.containers span{
+  font-size: 27px;
+  font-family: cursive;
+  color: orange;
+  font-weight: 500;
+}
+.containers h3{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+.colm1 , .colms2 , .colm3 {
+box-shadow:4px 2px 0px -2px rgba(216, 165, 26, 0.7);
+  padding: 20px 40px;
+}  
+
+.anotherAbout{
+  display: flex;
+  align-items: center;
+}
 
  
   /* contact page css */
